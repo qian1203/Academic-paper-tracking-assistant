@@ -37,7 +37,7 @@ def process_single_item(chain, item: Dict, language: str) -> Dict:
     def is_sensitive(content: str) -> bool:
     # 禁用第三方敏感词检测（解决429限流报错）
     # 学术论文无敏感内容，直接返回 False 放行所有内容
-    return False
+        return False
 
     # 检查 summary 字段
     if is_sensitive(item.get("summary", "")):
