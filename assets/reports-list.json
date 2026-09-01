@@ -29,6 +29,7 @@
     "2025-W12.md"
   ],
   "monthly": [
+    "2026-08.md",
     "2026-07.md",
     "2026-06.md",
     "2026-05.md",
@@ -37,6 +38,7 @@
     "2026-02.md"
   ],
   "wordclouds": [
+    "wordcloud-2026-08.png",
     "wordcloud-2026-07.png",
     "wordcloud-2026-06.png",
     "wordcloud-2026-05.png",
